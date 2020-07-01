@@ -9,9 +9,9 @@
 import PackageDescription
 
 let package = Package(
-    name: "Ink",
+    name: "InkRayWordpress",
     products: [
-        .library(name: "Ink", targets: ["Ink"]),
+        .library(name: "InkRayWordpress", targets: ["Ink"]),
         .executable(name: "ink-cli", targets: ["InkCLI"])
     ],
     targets: [
